@@ -1,11 +1,11 @@
-package Tests;
+package tests;
 
 import Main.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class ServiceCommandeTest {
+public class ServiceCommandeTest {
     private DepotStock stockDisponible = reference -> 100; // Stock suffisant par défaut
     private ServiceCommande service;
     private Panier panier;

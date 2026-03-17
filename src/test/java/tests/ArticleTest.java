@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 import Main.Article;
 import Main.Panier;

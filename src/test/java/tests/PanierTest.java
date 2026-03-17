@@ -1,11 +1,11 @@
-package Tests;
+package tests;
 
 import Main.Article;
 import Main.Panier;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class PanierTest {
+public class PanierTest {
 
     @Test
     void articleNulDoitLeverException() {

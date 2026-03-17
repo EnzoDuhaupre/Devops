@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2521742c-1064-4f02-ae29-f92759fc497d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_6_1_0_M1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_6_1_0_M1__2_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devops-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Commande.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Commande.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/DepotStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/DepotStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/LigneCommande.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/LigneCommande.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Panier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Panier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/ServiceCommande.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/ServiceCommande.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/StockInsuffisantException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/StockInsuffisantException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/ArticleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ArticleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/PanierReductionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PanierReductionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/PanierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PanierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/ServiceCommandeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ServiceCommandeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/SuiteBoutique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SuiteBoutique.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +55,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ArticleTest.executor": "Run",
+    "JUnit.PanierReductionTest.executor": "Run",
     "JavaClassFindUsagesOptions.isDerivedClasses": "true",
     "JavaClassFindUsagesOptions.isFieldsUsages": "true",
     "JavaClassFindUsagesOptions.isMethodsUsages": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
@@ -60,11 +78,12 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/enzod/Desktop/Devops-master/pom.xml",
     "onboarding.tips.debug.path": "C:/Users/enzod/Desktop/Devops-master/github/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "configurable.group.language",
-    "to.speed.mode.migration.done": "true"
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,14 +91,68 @@
       <recent name="Tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\enzod\Desktop\Devops-master\src\Main\src" />
-      <recent name="C:\Users\enzod\Desktop\Devops-master\src\Main" />
+      <recent name="C:\Users\enzod\Desktop\Devops-master\src\main\java" />
       <recent name="C:\Users\enzod\Desktop\Devops-master\src" />
-      <recent name="C:\Users\enzod\Desktop\Devops-master" />
-      <recent name="C:\Users\enzod\Desktop\Devops-master\.idea\libraries" />
+      <recent name="C:\Users\enzod\Desktop\Devops-master\src\src\main" />
+      <recent name="C:\Users\enzod\Desktop\Devops-master\src\Tests" />
+      <recent name="C:\Users\enzod\Desktop\Devops-master\src\Main" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SuiteBoutique">
+    <configuration name="ArticleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="devops-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ArticleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PanierReductionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="devops-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PanierReductionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuiteBoutique" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="devops-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SuiteBoutique" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuiteDeTet" type="JUnit" factoryName="JUnit">
+      <module name="devops-master" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="github" />
       <method v="2">
@@ -91,11 +164,24 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.SuiteDeTet" />
+      <item itemvalue="JUnit.ArticleTest" />
+      <item itemvalue="JUnit.PanierReductionTest" />
+      <item itemvalue="JUnit.SuiteBoutique" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SuiteBoutique" />
+        <item itemvalue="JUnit.PanierReductionTest" />
+        <item itemvalue="JUnit.ArticleTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
       </set>
     </attachedChunks>
   </component>
@@ -106,6 +192,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773671232514</updated>
+      <workItem from="1773750862684" duration="12000" />
     </task>
     <servers />
   </component>
