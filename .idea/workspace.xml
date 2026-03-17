@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2521742c-1064-4f02-ae29-f92759fc497d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devops-master.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Commande.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Commande.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/DepotStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/DepotStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/LigneCommande.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/LigneCommande.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Panier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Panier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/ServiceCommande.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/ServiceCommande.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/StockInsuffisantException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/StockInsuffisantException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/ArticleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ArticleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/PanierReductionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PanierReductionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/PanierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PanierTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/ServiceCommandeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ServiceCommandeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/SuiteBoutique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SuiteBoutique.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,49 +36,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.ArticleTest.executor": "Run",
-    "JUnit.PanierReductionTest.executor": "Run",
-    "JavaClassFindUsagesOptions.isDerivedClasses": "true",
-    "JavaClassFindUsagesOptions.isFieldsUsages": "true",
-    "JavaClassFindUsagesOptions.isMethodsUsages": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/enzod/Desktop/Devops-master/pom.xml",
-    "onboarding.tips.debug.path": "C:/Users/enzod/Desktop/Devops-master/github/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.language",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.ArticleTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PanierReductionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SuiteBoutique.executor&quot;: &quot;Run&quot;,
+    &quot;JavaClassFindUsagesOptions.isDerivedClasses&quot;: &quot;true&quot;,
+    &quot;JavaClassFindUsagesOptions.isFieldsUsages&quot;: &quot;true&quot;,
+    &quot;JavaClassFindUsagesOptions.isMethodsUsages&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/enzod/Desktop/Devops-master/pom.xml&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/enzod/Desktop/Devops-master/github/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\enzod\Desktop\Devops-master" />
       <recent name="C:\Users\enzod\Desktop\Devops-master\src\main\java" />
       <recent name="C:\Users\enzod\Desktop\Devops-master\src" />
       <recent name="C:\Users\enzod\Desktop\Devops-master\src\src\main" />
       <recent name="C:\Users\enzod\Desktop\Devops-master\src\Tests" />
-      <recent name="C:\Users\enzod\Desktop\Devops-master\src\Main" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.SuiteBoutique">
