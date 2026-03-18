@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2521742c-1064-4f02-ae29-f92759fc497d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/k8s/configmap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/deployment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/secret.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +30,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "configuredContexts": [
+    {
+      "name": "minikube",
+      "kubeConfigUrl": "file://C:/Users/enzod/.kube/config",
+      "originalNamespace": "default"
+    }
+  ],
+  "isMigrated": true
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -82,11 +96,11 @@
       <recent name="Tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\enzod\Desktop\Devops-master\github" />
       <recent name="C:\Users\enzod\Desktop\Devops-master" />
       <recent name="C:\Users\enzod\Desktop\Devops-master\src\main\java" />
+      <recent name="C:\Users\enzod\Desktop\Devops-master\target\classes\Main" />
+      <recent name="C:\Users\enzod\Desktop\Devops-master\github" />
       <recent name="C:\Users\enzod\Desktop\Devops-master\src" />
-      <recent name="C:\Users\enzod\Desktop\Devops-master\src\src\main" />
     </key>
   </component>
   <component name="RunManager" selected="Docker.Dockerfile">
@@ -189,7 +203,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
       </set>
     </attachedChunks>
   </component>
