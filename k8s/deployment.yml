@@ -6,7 +6,7 @@ metadata:
   labels:
     app: boutique
 spec:
-  replicas: 3                # 3 Pods en permanence
+  replicas: 3
   selector:
     matchLabels:
       app: boutique
@@ -17,18 +17,30 @@ spec:
     spec:
       containers:
         - name: boutique
-          image: ghcr.io/VOTRE_ORG/boutique:latest  # ← à adapter
+          image: ghcr.io/enzo-duhaupre/devops:latest
           ports:
             - containerPort: 8080
           envFrom:
             - configMapRef:
-                name: boutique-config  # inject. toutes les vars du ConfigMap
+                name: boutique-config
             - secretRef:
-                name: boutique-secret  # inject. toutes les vars du Secret
-      resources:
-        requests:
-          cpu: "100m"        # 0.1 CPU garanti
-          memory: "128Mi"    # 128 Mo garanti
-        limits:
-          cpu: "500m"        # max 0.5 CPU
-          memory: "256Mi"    # max 256 Mo
+                name: boutique-secret
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "500m"
+              memory: "256Mi"
+          livenessProbe:
+            httpGet:
+              path: /actuator/health
+              port: 8080
+            initialDelaySeconds: 30
+            periodSeconds: 10
+          readinessProbe:
+            httpGet:
+              path: /actuator/health
+              port: 8080
+            initialDelaySeconds: 15
+            periodSeconds: 5
